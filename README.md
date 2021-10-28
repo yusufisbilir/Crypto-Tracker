@@ -5,7 +5,9 @@ Click demo to try it by yourself!
 ## Crypto Tracker Demo Link
 
 You can view the site here
-[Click Me]()
+[Click Me](https://crypto-tracker-react-js.netlify.app/)
+
+Note: Demo running very slow because of netlify.
 
 ## Topics
 
@@ -16,7 +18,7 @@ You can view the site here
 
 ## Author
 
-Yusuf Emir İşbilir (yusufisbilir)
+Yusuf İşbilir (yusufisbilir)
 
 In the project directory, you can run:
 
