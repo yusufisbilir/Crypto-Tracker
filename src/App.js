@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     axios
       .get(
-        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=try&order=market_cap_desc&per_page=10&page=1&sparkline=false"
+        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=try&order=market_cap_desc&per_page=100&page=1&sparkline=false"
       )
       .then((res) => {
         setCoins(res.data);
@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="coin__app">
       <div className="coin__search">
-        <h1 className="coing__text">Search a currency</h1>
+        <h1 className="coin__text">Crypto Tracker</h1>
         <form>
           <input
             type="text"

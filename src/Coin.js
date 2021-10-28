@@ -1,10 +1,19 @@
 import React from "react";
+import "./Coin.css";
 
-const Coin = ({ name, image, symbol, price, volume, priceChange, marketcap }) => {
+const Coin = ({
+  name,
+  image,
+  symbol,
+  price,
+  volume,
+  priceChange,
+  marketcap,
+}) => {
   return (
     <div className="coin__container">
       <div className="coin__row">
-        <div className="coin">
+        <div className="coin__coin">
           <img src={image} alt="coin" />
           <h1>{name}</h1>
           <p className="coin__symbol">{symbol}</p>
@@ -16,7 +25,7 @@ const Coin = ({ name, image, symbol, price, volume, priceChange, marketcap }) =>
             {priceChange.toFixed(2)}%
           </p>
           <p className="coin__marketcap">
-              Mkt Cap: ₺{marketcap.toLocaleString()}
+            Mkt Cap: ₺{marketcap.toLocaleString()}
           </p>
         </div>
       </div>
